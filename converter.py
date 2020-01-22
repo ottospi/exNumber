@@ -89,7 +89,7 @@ def transcreveDezena(dezenaDoNumero,unidadeDoNumero):
 def transcreveCentena(centenaDoNumero,dezenaDoNumero,unidadeDoNumero,unidade,dezena):
     if centenaDoNumero !=0 and dezena!=None:
         return centenas[centenaDoNumero-1] + ' e '
-    elif centenaDoNumero !=0 and unidade!=0:
+    elif centenaDoNumero !=0 and unidade!=None:
         return centenas[centenaDoNumero-1] + ' e '
     elif centenaDoNumero !=0:
         return centenas[centenaDoNumero-1]
@@ -111,7 +111,7 @@ def transcreveDezenaDeMilhar(dmilharDoNumero,milharDoNumero):
         un = dezenas[dmilharDoNumero-1]
         return un + ' e '
     elif dmilharDoNumero >= 1 and dmilharDoNumero <= 9 and milharDoNumero ==0:
-        return dezenas[dmilharDoNumero-1] + ' mil'
+        return dezenas[dmilharDoNumero-1] + ' mil '
     elif dmilharDoNumero ==1 and milharDoNumero!=0:
         return teen[milharDoNumero-1]+ ' mil'
 
