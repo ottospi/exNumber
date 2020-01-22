@@ -3,7 +3,10 @@
 
   PASSOS PARA EXECUTAR O PROG
 
-Para rodar, após dawnload ir no terminal e acessar a pasta.
+Para rodar, após dawnload extrair os arquivos, irá gerar a seguinte pasta(exNumber-master)
+Apague e renomeie como (exNumber).
+
+Ir no terminal e acessar a pasta.
 Certifiqui-se que esta na pasta (de um pwd para ter certeza ;) ).
 Digite nas linhas de comando:
 > pip install -r requirements.txt
